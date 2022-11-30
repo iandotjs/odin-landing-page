@@ -19,6 +19,12 @@ body {
     gap: 30px;
 }
 
+.image-placeholder{
+    background: url('https://live.staticflickr.com/5572/14756805260_604c4d0f14_b.jpg') no-repeat;
+    width:200px;
+    height:auto;
+   }
+
 .anchor-tag-link {
     list-style: none;
     text-decoration: none;
@@ -89,6 +95,9 @@ body {
     margin-bottom: 10px;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.content-button {
 }
 
 .desc > button {
