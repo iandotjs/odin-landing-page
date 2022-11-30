@@ -19,9 +19,14 @@ body {
     gap: 30px;
 }
 
+.anchor-tag-link {
+    list-style: none;
+    text-decoration: none;
+    color: #E5E7EB;;
+}
+
 .left-link {
     list-style: none;
-    color: #E5E7EB;
     font: 18px;
 }
 
