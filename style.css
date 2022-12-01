@@ -76,7 +76,7 @@ body {
     height: 200px;
     align-items: stretch;
     overflow: hidden;
-   
+   border-radius: 10px;
 }
 
 .image > img {
@@ -146,6 +146,7 @@ body {
 
 .illustration {
     border-radius: 10px;
+    border: #232946 solid 2px;
     overflow: hidden;
     max-width: 200px;
     height: 100px;
