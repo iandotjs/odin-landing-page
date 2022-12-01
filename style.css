@@ -152,9 +152,8 @@ body {
     height: 100px;
 }
 
-.illustration > img {
-    max-width: 200px;
-    height: auto;
+.illustration-image {
+    width: 200px;
 }
 
 /* Quotes */
