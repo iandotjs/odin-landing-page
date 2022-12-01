@@ -100,7 +100,6 @@ body {
 .desc > button {
     background-color: #eebbc3;
     color: #232946;
-    border: none;
     border-radius: 4px;
     padding: 8px 18px;
     font-weight: bold;
@@ -222,15 +221,17 @@ blockquote {
 
 .sign-up-button {
     background-color: #232946;
-    padding: 3px 20px;
+    padding: 5px 20px;
     border-style: none;
-    border: #ffffff solid 1px;
+    border: #e0b9bf solid 2px;
     border-radius: 8px;
     color: #ffffff;
-    height: 30px;
+    height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;    
+    font-size: 14px;
+    font-weight: bold;
 }
 
 /* footer */
@@ -246,4 +247,16 @@ footer {
 
 footer > span {
     font-size: 18px;
+}
+
+/* buttons */
+
+.header-button:hover {
+    background-color: #c5929a;
+    border: #949cc2 solid 2px;
+}
+
+.sign-up-button:hover {
+    background-color: #213072;
+    border: #a59598 solid 2px;
 }
